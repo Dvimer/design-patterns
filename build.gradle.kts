@@ -25,7 +25,8 @@ configurations {
 dependencies {
     //====Lombook============================================================
 
-    compileOnly("org.javatuples:javatuples:1.2")
+    implementation("org.javatuples:javatuples:1.2")
+    implementation ("org.reflections:reflections:0.9.11")
     compileOnly("org.projectlombok:lombok:1.18.10")
     testCompileOnly("org.projectlombok:lombok:1.18.10")
     annotationProcessor("org.projectlombok:lombok:1.18.10")
