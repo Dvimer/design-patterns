@@ -24,13 +24,19 @@ configurations {
 
 dependencies {
     //====Lombook============================================================
-
-    implementation("org.javatuples:javatuples:1.2")
-    implementation ("org.reflections:reflections:0.9.11")
     compileOnly("org.projectlombok:lombok:1.18.10")
     testCompileOnly("org.projectlombok:lombok:1.18.10")
     annotationProcessor("org.projectlombok:lombok:1.18.10")
     testAnnotationProcessor("org.projectlombok:lombok:1.18.10")
+
+    //====Tuples============================================================
+    implementation("org.javatuples:javatuples:1.2")
+
+    //====SerializableUtils============================================================
+    implementation("org.apache.commons:commons-lang3:3.0")
+
+    //====Reflections============================================================
+    implementation ("org.reflections:reflections:0.9.11")
 
 
 }
