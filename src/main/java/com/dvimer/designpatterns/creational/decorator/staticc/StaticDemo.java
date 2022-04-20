@@ -19,7 +19,7 @@ public class StaticDemo {
         System.out.println(transparentShape.info());
         System.out.println(transparentShape1.info());
         StringBuilder builder = new StringBuilder();
-        builder.a
+
 
     }
 }
