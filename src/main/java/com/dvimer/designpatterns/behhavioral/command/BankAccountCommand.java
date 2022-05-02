@@ -11,6 +11,13 @@ public class BankAccountCommand implements Command {
     private BankAccount account;
     private boolean succeeded;
 
+
+    public BankAccountCommand(BankAccount account, Action action, int amount) {
+        this.account = account;
+        this.action = action;
+        this.amount = amount;
+    }
+
     @Override
     public void call() {
         switch (action) {
